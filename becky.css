@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lalezar, sans-serif;
+    height: 360vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(background.png);
+    background-repeat: repeat;
+
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url(armorpink4.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.navbar-ul {
+    flex-direction: row;
+    padding: 20px;
+}
+
+.navbar-li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: pink;
+    transition: all .3s ease;
+}
+.logo {
+    flex: 1;
+    font-size: 25px;
+    color: white;
+}
+
+.logo span {
+    color: rgb(226, 115, 133);
+}
+
+/* ---------------------------- START OF MAIN SECTION still in header-----*/
+
+.main {
+    margin-top: 3rem;
+    height: 600px;
+}
+
+.empower {
+    font-size:45px;
+    text-align: center;
+}
+
+.main1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 150px;
+}
+
+.beck-pic-header {
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.beck-pic-header:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.main-text1 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    color: white;
+}
+
+.frozen {
+    margin-bottom: 0px;
+    font-size: 33px;
+    border: 1px white solid;
+    padding: 20px;
+}
+/* --- THIS WILL GIVE TEXT GLOW FEATURE 
+.main-text1 span {
+    color: white;
+    text-shadow: 0 0 10px lightskyblue, 0 0 20px lightskyblue, 0 0 30px lightskyblue, 0 0 40px lightskyblue, 0 0 50px lightskyblue, 0 0 60px lightskyblue, 0 0 70px lightskyblue;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#span1 {
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+}
+---- */
+
+/* ------------------------------ START OF MAIN2 SECTION ----- */
+
+.main2 {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.bundle-single {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.bundle {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bundle-img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.bundle-text {
+    height: 250px;
+    width: 300px;
+    text-align: left;
+    color: white;
+    filter: drop-shadow(10px white);
+    font-size: 22px;
+}
+
+.bundle-text p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.gift-certs {
+    color: rgb(248, 85, 112);
+    text-decoration: none;
+}
+
+/* ------------------------------------------ START OF MAIN 3 -------- */
+
+.main3-flex-parent {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.404);
+    max-width: 100%;
+}
+
+.main3-h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    min-width: 80%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    gap: 50px;
+}
+
+.safety-img1,
+.safety-img2,
+.safety-img3 {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.safety-img1:hover,
+.safety-img2:hover,
+.safety-img3:hover {
+    transform: scale(1.1);
+    transition: .4s ease;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.397);
+}
+
+.container1,
+.container2,
+.container3 {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container1 h1 {
+    line-height: 40px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.container1 p {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container2 h1 {
+    line-height: 40px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.container2 p {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container3 h1 {
+    line-height: 40px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.container3 p {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ---------------------------------------- START OF MAIN-PARENT4 --*/
+
+.main-parent4 {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 50px;
+}
+
+.testimonials {
+    font-size: 20px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 20px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.grid-container > :nth-child(-n+2) {
+    grid-column: 1;
+}
+
+.grid-container > :nth-child(3) {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+.grid-item1,
+.grid-item2,
+.grid-item3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    background-color: rgba(134, 134, 134, 0.438);
+}
+
+.grid-item1 p,
+.grid-item2 p,
+.grid-item3 p {
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+/* ---------------------------------------- SUBSCRIBE -- */
+
+.subscribe {
+    width: 100%;
+    height: 300px;
+    background-image: url(armor4.png);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 5rem;
+}
+
+.sub-text {
+   width: 500px;
+   text-align: center;
+   margin: auto;
+   padding-top: 50px;
+}
+
+.sub-text p {
+    margin-top: -25px;
+}
+
+.email-input {
+    width: 400px;
+    margin-top: 40px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+/* ---------------------------- FOOTER ----- */
+
+footer {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
